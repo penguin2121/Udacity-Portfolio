@@ -7,6 +7,12 @@
     padding-right: 5px;
 }
 
+@media screen and (max-width: 670px) {
+    * {
+        font-size: 11pt;
+    }
+}
+
 /* Classes */
 
 .container {
@@ -25,7 +31,7 @@
 }
 
 .url-text {
-    font-size: 0.6em;
+    font-size: 0.7em;
     margin-bottom: 20px;
 }
 
@@ -64,14 +70,16 @@ p {
 }
 
 hr {
-    width: 100%; order: 2;
+    width: 100%;
+    order: 2;
     height: 3px;
     background-color: grey;
     border-color: grey;
 }
 
 header {
-    width: 100%; order: 1;
+    width: 100%;
+    order: 1;
     justify-content: space-between;
     align-items: flex-end;
 }
