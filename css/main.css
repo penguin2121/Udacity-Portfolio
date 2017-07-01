@@ -7,12 +7,6 @@
     padding-right: 5px;
 }
 
-@media screen and (max-width: 670px) {
-    * {
-        font-size: 11pt;
-    }
-}
-
 /* Classes */
 
 .container {
@@ -137,4 +131,32 @@ header {
 
 #article-three {
     order: 4;
+}
+
+@media screen and (max-width: 670px) {
+    * {
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #page-title {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    * {
+        font-size: 8pt;
+    }
+
+    .img-with-caption {
+        min-width: 100px;
+    }
+}
+
+@media screen and (max-width: 190px) {
+    * {
+        font-size: 6pt;
+    }
 }
