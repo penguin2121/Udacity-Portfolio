@@ -1,10 +1,10 @@
 # Portfolio
 
-This is a portfolio project.
+This is my version of the portfolio project from Udacity.
 
 ## How to Install
 
-Download all flies, and maintain file structure.
+Download all files, and maintain file structure.
 
 ## How to Execute
 
